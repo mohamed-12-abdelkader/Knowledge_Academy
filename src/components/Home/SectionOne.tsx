@@ -37,12 +37,12 @@ const SectionOne: React.FC<SectionOneProps> = ({ name, img, description }) => {
         </div>
 
         {description ? (
-          <h5
+          <h3
             className="image-with-animation"
-            style={{ width: "400px", direction: "rtl" }}
+            style={{ width: "400px", direction: "rtl", color: "white" }}
           >
             {description}
-          </h5>
+          </h3>
         ) : null}
         {img ? (
           <img
